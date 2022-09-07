@@ -90,7 +90,7 @@
 						<a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<li><a class="dropdown-item" href="#">Informasi Dokumen</a></li>
+							<li><a class="dropdown-item" href="<?php echo site_url('Content/indok/'); ?>">Informasi Dokumen</a></li>
 							<li><a class="dropdown-item" href="<?php echo site_url('Content/informasi/'); ?>">Informasi Kontak</a></li>
 							<li><a class="dropdown-item" href="<?php echo site_url('Content/tentang/'); ?>">Tentang INTI-CSIRT</a></li>
 							<li><a class="dropdown-item" href="<?php echo site_url('Content/kebijakan/'); ?>">Kebijakan</a></li>
@@ -212,13 +212,33 @@
 		</div>
 	</div>
 </section>
-<section class="" style="width:100%; height: 600px;">
+<section class="" style="width:100%; height: 500px;">
 	<div class="container" style="background-color: #150544; width:100%; height:250px; border-top-right-radius: 40px; margin-right:50px; margin-left:99px;">
 		<h2 style="font-family: poppins; color:white; margin-left:150px; margin-top:90px;">What people say</h2>
 		<p style="font-family: poppins; color:white; margin-left:150px;">All About Security Awareness</p>
 		<img src="assets/images/images1.png" class="" style="width: 150px; height: 220px; margin-left: 600px; margin-top:-85px; border-top-right-radius: 30px;">
 		<img src="assets/images/images2.png" class="" style="width: 150px; height: 220px; margin-left: 850px; margin-top:-240px; border-top-right-radius: 30px;">
 	</div>
+	</div>
+</section>
+<section class="" style=" height: 750px;">
+	<img src="<?php echo base_url() ?>assets/images/contact.png" width="450px" style="margin-left: 95px; margin-top:5px;">
+	<div class="isi" style="margin-top: -500px; margin-left: 55%; width:45%; font-family:poppins;">
+		<p style="color: blue;">CONTACT US</p>
+		<h3><b>Computer Security Incident <br>Response Team</b></h3>
+		<br><br>
+		<p style="color: #656565;">ADDRESS</p><br>
+		<h4><b>PT.Industri Telekomunikasi</b></h4>
+		<p style="color: #656565;">Jalan Moh. Toha No.77 Kelurahan Cigereleng, Kecamatan<br>Regol, Bandung, Jawa Barat 40113<br><br> EMAIL<br></p>
+		<b>csirt[at]inti.co.id</b><br><br>
+		<p style="color: #656565;">TELEPHONE</p>
+		<b>(022) 5201-501</b><br><br>
+		<p style="color: #656565;">KUNCI PUBLIC (PUBLIC KEY) DAN INFORMASI/DATA ENKRIPSI LAIN</p>
+		<b>Bits&emsp;&emsp;&emsp;&emsp;&ensp;: 4096</b><br>
+		<b>ID&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;: FC4E 272A 9B0E E69A</b><br>
+		<b>Key Fingerprint&ensp;: BD34 4A28 06B3 7B31 1A32 6491 FC4E 272A 9B0E E69A</b><br><br>
+
+		<img src="<?php echo base_url() ?>assets/images/scan.png" width="100px" alt=""><br><br>
 	</div>
 </section>
 <footer class=" site-footer" style="background-color: #150544; ">
