@@ -111,9 +111,9 @@
     </a>
 </div>
 <!-- HERO -->
-<section class="" style="width:100%; height: 600px;">
-    <img src="<?php echo base_url() ?>assets/images/contact.png" width="500px" style="margin-left: 10px;">
-    <div class="isi" style="margin-top: -500px; margin-right:20px;">
+<section class="" style=" height: 600px;">
+    <img src="<?php echo base_url() ?>assets/images/contact.png" width="450px" style="margin-left: 95px; margin-top:10px;">
+    <div class="isi" style="margin-top: -500px; margin-left: 55%; width:45%; font-family:poppins;">
         <p style="color: blue;">CONTACT US</p>
         <h3><b>Computer Security Incident <br>Response Team</b></h3>
         <br><br>
@@ -128,6 +128,12 @@
         <b>ID&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;: FC4E 272A 9B0E E69A</b><br>
         <b>Key Fingerprint&ensp;: BD34 4A28 06B3 7B31 1A32 6491 FC4E 272A 9B0E E69A</b><br><br>
 
-        <img src="<?php echo base_url() ?>assets/images/scan.png" width="100px" alt="">
+        <img src="<?php echo base_url() ?>assets/images/scan.png" width="100px" alt=""><br><br>
     </div>
+</section>
+<section class="" style=" height: 600px;">
+    <di class="isi1" style="margin-right: -510%; width:45%; font-family:poppins; color: black;">
+        <br><br><br><br><br><br><br><br><br>
+        <h2 style="margin-left: 80px;"><b>Anggota Tim</b></h2>
+    </di>
 </section>
