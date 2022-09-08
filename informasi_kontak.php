@@ -60,7 +60,7 @@
                         <a href="<?php echo site_url('Home'); ?>" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url(); ?>" class="nav-link">Profil</a>
+                        <a href="<?php echo site_url('Content/profil'); ?>" class="nav-link">Profil</a>
                     </li>
                     <li class="nav-item">
                         <a href="<?php echo site_url(); ?>" class="nav-link">Layanan INTI-CSIRT</a>
@@ -72,12 +72,12 @@
                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Informasi Dokumen</a></li>
+                            <li><a class="dropdown-item" href="<?php echo site_url('Content/indok/'); ?>">Informasi Dokumen</a></li>
                             <li><a class="dropdown-item" href="<?php echo site_url('Content/informasi/'); ?>">Informasi Kontak</a></li>
                             <li><a class="dropdown-item" href="<?php echo site_url('Content/tentang/'); ?>">Tentang INTI-CSIRT</a></li>
                             <li><a class="dropdown-item" href="<?php echo site_url('Content/kebijakan/'); ?>">Kebijakan</a></li>
-                            <li><a class="dropdown-item" href="#">Layanan INTI-CSIRT</a></li>
-                            <li><a class="dropdown-item" href="#">Dokumen Legal Pendukung</a></li>
+                            <li><a class="dropdown-item" href="<?php echo site_url('Content/layanan/'); ?>">Layanan INTI-CSIRT</a></li>
+                            <li><a class="dropdown-item" href="<?php echo site_url('Content/dokpen/'); ?>">Dokumen Legal Pendukung</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -119,6 +119,8 @@
         <br><br>
         <p style="color: #656565;">ADDRESS</p><br>
         <h4><b>PT.Industri Telekomunikasi</b></h4>
+        <button type="submit" class="btn btn-labeled" style="background-color: white; color:#FDC886; font-family: poppins; margin-left:80%; margin-top:-65px;">
+            <a href="<?php echo base_url('Content/profil') ?>" class="href" style="color:#FDC886;"> Profile Details</a> <span class="btn-label"><i class="fa fa-chevron-right"></i></span></button>
         <p style="color: #656565;">Jalan Moh. Toha No.77 Kelurahan Cigereleng, Kecamatan<br>Regol, Bandung, Jawa Barat 40113<br><br> EMAIL<br></p>
         <b>csirt[at]inti.co.id</b><br><br>
         <p style="color: #656565;">TELEPHONE</p>
@@ -131,9 +133,78 @@
         <img src="<?php echo base_url() ?>assets/images/scan.png" width="100px" alt=""><br><br>
     </div>
 </section>
-<section class="" style=" height: 600px;">
-    <di class="isi1" style="margin-right: -510%; width:45%; font-family:poppins; color: black;">
+<section class="" style=" height: 200%;">
+    <div class="isi1" style="margin-right: -550%; width:45%; font-family:poppins; color: black;">
         <br><br><br><br><br><br><br><br><br>
-        <h2 style="margin-left: 80px;"><b>Anggota Tim</b></h2>
-    </di>
+        <h2 style="margin-left: 100px;"><b>Anggota Tim</b></h2>
+        <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:200%; margin-top:-60px;">
+            <a href="#" class="nav-link" style="color:white;">Hubungi<span class="btn-label"></span></button>
+    </div>
+    <section class="" style=" height: 75px; background-color:#D9D9D9; width:70px; margin-left:100px; margin-top:30px;">
+    </section>
+    <div class="isi2" style="color: black;">
+        <p style="margin-left: 190px; margin-top:-50px; font-family:poppins;"><b>Setyo Utoro</b></p><br>
+        <p style="margin-left: 590px; margin-top:-50px; font-family:poppins;"><b>Koordinator/Narahubung</b></p><br>
+        <p style="margin-left: 1100px; margin-top:-50px; font-family:poppins;"><b>Manager</b></p><br>
+        <hr style="width:90%;">
+    </div>
+    <section class="" style=" height: 75px; background-color:#D9D9D9; width:70px; margin-left:100px; margin-top:30px;">
+    </section>
+    <div class="isi3" style="color: black;">
+        <p style="margin-left: 190px; margin-top:-50px; font-family:poppins;"><b>Dhoni Gumilar Daradjat</b></p><br>
+        <p style="margin-left: 640px; margin-top:-50px; font-family:poppins;"><b>Anggota</b></p><br>
+        <p style="margin-left: 1100px; margin-top:-50px; font-family:poppins;"><b>Manager</b></p><br>
+        <hr style="width:90%;">
+    </div>
+    <section class="" style=" height: 75px; background-color:#D9D9D9; width:70px; margin-left:100px; margin-top:30px;">
+    </section>
+    <div class="isi4" style="color: black;">
+        <p style="margin-left: 190px; margin-top:-50px; font-family:poppins;"><b>Mahathir Muhammad</b></p><br>
+        <p style="margin-left: 640px; margin-top:-50px; font-family:poppins;"><b>Anggota</b></p><br>
+        <p style="margin-left: 83%; margin-top:-50px; font-family:poppins;"><b>Senior Officer</b></p><br>
+        <hr style="width:90%;">
+    </div>
+    <section class="" style=" height: 75px; background-color:#D9D9D9; width:70px; margin-left:100px; margin-top:30px;">
+    </section>
+    <div class="isi4" style="color: black;">
+        <p style="margin-left: 190px; margin-top:-50px; font-family:poppins;"><b>M. Fakhrul Arifin</b></p><br>
+        <p style="margin-left: 640px; margin-top:-50px; font-family:poppins;"><b>Anggota</b></p><br>
+        <p style="margin-left: 1100px; margin-top:-50px; font-family:poppins;"><b>Officer</b></p><br>
+        <hr style="width:90%;">
+    </div>
+    <section class="" style=" height: 75px; background-color:#D9D9D9; width:70px; margin-left:100px; margin-top:30px;">
+    </section>
+    <div class="isi5" style="color: black;">
+        <p style="margin-left: 190px; margin-top:-50px; font-family:poppins;"><b>Robiyansyah</b></p><br>
+        <p style="margin-left: 640px; margin-top:-50px; font-family:poppins;"><b>Anggota</b></p><br>
+        <p style="margin-left: 1100px; margin-top:-50px; font-family:poppins;"><b>Officer</b></p><br>
+        <hr style="width:90%;">
+    </div>
+    <section class="" style=" height: 75px; background-color:#D9D9D9; width:70px; margin-left:100px; margin-top:30px;">
+    </section>
+    <div class="isi6" style="color: black;">
+        <p style="margin-left: 190px; margin-top:-50px; font-family:poppins;"><b>Doyo Gogo Prayogo</b></p><br>
+        <p style="margin-left: 640px; margin-top:-50px; font-family:poppins;"><b>Anggota</b></p><br>
+        <p style="margin-left: 1100px; margin-top:-50px; font-family:poppins;"><b>Officer</b></p><br>
+        <hr style="width:90%;">
+    </div>
+    <div class="isi7" style="color: black; font-family:poppins; margin-left:100px;">
+        <br>
+        <h3>Catatan-catatan pada Kontak INTI-CSIRT</h3><br>
+        <p>Metode yang disarankan untuk menghubungi INTI-CSIRT adalah melalui e-mail
+            Pada alamat csirt[at].co.id atau melalui nomor telepon ke (+62-22) 5201501
+            Yang siaga selama jam kerja.
+        </p>
+    </div>
 </section>
+<footer class=" site-footer" style="background-color: #150544; ">
+    <div id="bottom-footer">
+        <div class="tg-container" style="height: 100px;">
+            <div class="mx-lg-auto text-center col-12" style="background-color: #150544; ">
+                <p class="copyright-text" style="color:white; font-family: poppins;">
+                    Copyright &copy; 2022 <a href="https://csirt.inti.co.id/">INTI-CSIRT
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
