@@ -112,7 +112,7 @@
 </div>
 <!-- HERO -->
 <section class="" style=" height: 600px;">
-    <img src="<?php echo base_url() ?>assets/images/contact.png" width="450px" style="margin-left: 95px; margin-top:10px;">
+    <img src="<?php echo base_url() ?>assets/images/contact1.png" width="530px" style="margin-left: 95px; margin-top:10px;">
     <div class="isi" style="margin-top: -500px; margin-left: 55%; width:45%; font-family:poppins;">
         <p style="color: blue;">CONTACT US</p>
         <h3><b>Computer Security Incident <br>Response Team</b></h3>
@@ -133,7 +133,7 @@
         <img src="<?php echo base_url() ?>assets/images/scan.png" width="100px" alt=""><br><br>
     </div>
 </section>
-<section class="" style=" height: 200%;">
+<section class="" style=" height: 230%;">
     <div class="isi1" style="margin-right: -550%; width:45%; font-family:poppins; color: black;">
         <br><br><br><br><br><br><br><br><br>
         <h2 style="margin-left: 100px;"><b>Anggota Tim</b></h2>
