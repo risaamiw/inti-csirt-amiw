@@ -26,6 +26,10 @@ class Content extends CI_Controller
     {
         $this->load->view('rfc2350/informasi_kontak');
     }
+    public function alper()
+    {
+        $this->load->view('rfc2350/alamat');
+    }
     public function dokpen()
     {
         $this->load->view('rfc2350/dokpen');
@@ -37,5 +41,9 @@ class Content extends CI_Controller
     public function layanan()
     {
         $this->load->view('landing/layanan');
+    }
+    public function hubungi()
+    {
+        $this->load->view('landing/hubungi');
     }
 }
