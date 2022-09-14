@@ -57,19 +57,19 @@
             <div class="collapse navbar-collapse" id="navbarNav" style="padding-right: -60px; font-family:poppins;">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="<?php echo site_url('Home'); ?>" class="nav-link">Home</a>
+                        <a href="<?php echo site_url('Home'); ?>" class="nav-link" style="color: black;">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url('Content/profil'); ?>" class="nav-link">Profil</a>
+                        <a href="<?php echo site_url('Content/profil'); ?>" class="nav-link" style="color: black;">Profil</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url(); ?>" class="nav-link">Layanan INTI-CSIRT</a>
+                        <a href="<?php echo site_url(); ?>" class="nav-link" style="color: black;">Layanan INTI-CSIRT</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url('Content'); ?>" class="nav-link">RFC 2350</a>
+                        <a href="<?php echo site_url('Content'); ?>" class="nav-link" style="color: black;">RFC 2350</a>
                     </li>
                     <li class="nav-item dropdown" style="margin-left:-10px;">
-                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="<?php echo site_url('Content/indok/'); ?>">Informasi Dokumen</a></li>
@@ -78,13 +78,14 @@
                             <li><a class="dropdown-item" href="<?php echo site_url('Content/kebijakan/'); ?>">Kebijakan</a></li>
                             <li><a class="dropdown-item" href="<?php echo site_url('Content/layanan/'); ?>">Layanan INTI-CSIRT</a></li>
                             <li><a class="dropdown-item" href="<?php echo site_url('Content/dokpen/'); ?>">Dokumen Legal Pendukung</a></li>
+                            <li><a class="dropdown-item" href="<?php echo site_url('Content/alper/'); ?>">Alamat Pelaporan</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url('Content/siber'); ?>" class="nav-link">Aduan Siber</a>
+                        <a href="<?php echo site_url('Content/siber'); ?>" class="nav-link" style="color: black;">Aduan Siber</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo site_url(); ?>" class="nav-link">Hubungi Kami</a>
+                        <a href="<?php echo site_url(); ?>" class="nav-link" style="color: black;">Hubungi Kami</a>
                     </li>
                 </ul>
             </div>
@@ -146,7 +147,7 @@
         <p style="margin-left: 190px; margin-top:-50px; font-family:poppins;"><b>Setyo Utoro</b></p><br>
         <p style="margin-left: 590px; margin-top:-50px; font-family:poppins;"><b>Koordinator/Narahubung</b></p><br>
         <p style="margin-left: 1100px; margin-top:-50px; font-family:poppins;"><b>Manager</b></p><br>
-        <hr style="width:90%;">
+        <hr style="border: 1px solid black; width:90%;">
     </div>
     <section class="" style=" height: 75px; background-color:#D9D9D9; width:70px; margin-left:100px; margin-top:30px;">
     </section>
@@ -154,7 +155,7 @@
         <p style="margin-left: 190px; margin-top:-50px; font-family:poppins;"><b>Dhoni Gumilar Daradjat</b></p><br>
         <p style="margin-left: 640px; margin-top:-50px; font-family:poppins;"><b>Anggota</b></p><br>
         <p style="margin-left: 1100px; margin-top:-50px; font-family:poppins;"><b>Manager</b></p><br>
-        <hr style="width:90%;">
+        <hr style="border: 1px solid black; width:90%;">
     </div>
     <section class="" style=" height: 75px; background-color:#D9D9D9; width:70px; margin-left:100px; margin-top:30px;">
     </section>
@@ -162,7 +163,7 @@
         <p style="margin-left: 190px; margin-top:-50px; font-family:poppins;"><b>Mahathir Muhammad</b></p><br>
         <p style="margin-left: 640px; margin-top:-50px; font-family:poppins;"><b>Anggota</b></p><br>
         <p style="margin-left: 83%; margin-top:-50px; font-family:poppins;"><b>Senior Officer</b></p><br>
-        <hr style="width:90%;">
+        <hr style="border: 1px solid black; width:90%;">
     </div>
     <section class="" style=" height: 75px; background-color:#D9D9D9; width:70px; margin-left:100px; margin-top:30px;">
     </section>
@@ -170,7 +171,7 @@
         <p style="margin-left: 190px; margin-top:-50px; font-family:poppins;"><b>M. Fakhrul Arifin</b></p><br>
         <p style="margin-left: 640px; margin-top:-50px; font-family:poppins;"><b>Anggota</b></p><br>
         <p style="margin-left: 1100px; margin-top:-50px; font-family:poppins;"><b>Officer</b></p><br>
-        <hr style="width:90%;">
+        <hr style="border: 1px solid black; width:90%;">
     </div>
     <section class="" style=" height: 75px; background-color:#D9D9D9; width:70px; margin-left:100px; margin-top:30px;">
     </section>
@@ -178,7 +179,7 @@
         <p style="margin-left: 190px; margin-top:-50px; font-family:poppins;"><b>Robiyansyah</b></p><br>
         <p style="margin-left: 640px; margin-top:-50px; font-family:poppins;"><b>Anggota</b></p><br>
         <p style="margin-left: 1100px; margin-top:-50px; font-family:poppins;"><b>Officer</b></p><br>
-        <hr style="width:90%;">
+        <hr style="border: 1px solid black; width:90%;">
     </div>
     <section class="" style=" height: 75px; background-color:#D9D9D9; width:70px; margin-left:100px; margin-top:30px;">
     </section>
@@ -186,7 +187,7 @@
         <p style="margin-left: 190px; margin-top:-50px; font-family:poppins;"><b>Doyo Gogo Prayogo</b></p><br>
         <p style="margin-left: 640px; margin-top:-50px; font-family:poppins;"><b>Anggota</b></p><br>
         <p style="margin-left: 1100px; margin-top:-50px; font-family:poppins;"><b>Officer</b></p><br>
-        <hr style="width:90%;">
+        <hr style="border: 1px solid black; width:90%;">
     </div>
     <div class="isi7" style="color: black; font-family:poppins; margin-left:100px;">
         <br>
@@ -197,14 +198,9 @@
         </p>
     </div>
 </section>
-<footer class=" site-footer" style="background-color: #150544; ">
-    <div id="bottom-footer">
-        <div class="tg-container" style="height: 100px;">
-            <div class="mx-lg-auto text-center col-12" style="background-color: #150544; ">
-                <p class="copyright-text" style="color:white; font-family: poppins;">
-                    Copyright &copy; 2022 <a href="https://csirt.inti.co.id/">INTI-CSIRT
-                </p>
-            </div>
-        </div>
-    </div>
+<footer style="background:#150544; padding:10px; text-align:center; height:100px; width: 102%; margin-left:-17px;">
+    <p style="margin-top: 28px; color:white; font-family:poppins;">Copyright &copy; 2022 INTI-CSIRT</p>
 </footer>
+</body>
+
+</html>
