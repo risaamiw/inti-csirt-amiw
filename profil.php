@@ -40,21 +40,30 @@
     <script src="<?php echo base_url() ?>assets-landing/js/custom.js"></script>
 
     <style>
-        html,
-        body {
-            margin: 0;
-            height: 100%;
-            width: 100%;
-            padding: 0;
+        .carousel-inner {
+            border-radius: 20px;
         }
 
-        section {
-            display: block;
-            height: 100%;
-            width: 100%;
-            padding: 30px;
-            padding-left: 0px;
-            box-sizing: border-box;
+        .carousel-item {
+            margin-top: 50px;
+        }
+
+        .carousel-item img {
+            left: 0;
+            min-width: 100%;
+            height: 474px;
+            border-radius: 50px;
+        }
+
+        .left {
+            min-width: 30%;
+            height: 50%;
+            position: absolute;
+            top: 35%;
+            left: -2%;
+            background-color: #150544;
+            border-radius: 20px;
+            z-index: 9;
         }
     </style>
 </head>
@@ -110,28 +119,38 @@
     </div>
 </nav>
 
-
-<div id="carouselSlider" class="carousel slide">
-    <div class="carousel-inner" style=" padding: 55px; margin-top: -54px; border: radius 10px; ">
-        <div class="carousel-item active">
-            <img src="<?php echo base_url() ?>assets/images/GDPR.jpg" width="1250" height="500" alt="First slide" class="rounded-4" style="border-radius: 25px;">
+<section>
+    <div class="container" style="border-radius: 20px; position: relative;">
+        <div class="left">
+            <p style="color: white; font-family:poppins; margin-top:30px; margin-left:35px;">PT Industri Telekomunikasi Indoenesia<br>(INTI-CSIRT)</p>
+            <h3 style="color: white; font-family:poppins; margin-top:10px; margin-left:35px;">CSIRT INTI</h3>
+            <h5 style="color: white; font-family:poppins; margin-top:10px; margin-left:35px;">Computer Securty Incident<br>Response Team</h5>
+            <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:35px; margin-top:20px; height:40px;">
+                Read more <span class="btn-label"><i class="fa fa-chevron-right"></i></span></button>
         </div>
-        <div class="carousel-item">
-            <img src="<?php echo base_url() ?>assets/images/GLOBE.jpg" width="1250" height="500" alt="Second slide" class="rounded-4" style="border-radius: 25px;">
+        <div id="carouselSlider" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item-active">
+                    <img class="d-block w-100 img-fluid" src="<?php echo base_url() ?>assets/images/GDPR.jpg" alt="First slide">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 img-fluid" src="<?php echo base_url() ?>assets/images/GLOBE.jpg" alt="Second slide">
+            </div>
+            <a class="carousel-control-prev" href="#carouselSlider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselSlider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselSlider" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselSlider" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
+</section>
 <!-- HERO -->
 <section class="" style="width:100%; height: 600px;">
-    <div class="container" style="background-color: #150544; width:970px; height:110%; border-top-right-radius: 40px; margin-right:35px;">
+    <div class="container" style="background-color: #150544; width:970px; height:110%; border-top-right-radius: 40px; margin-right:110px; margin-top:80px;">
         <h2 style="border-style: solid; width:16%; padding: 20px; border-radius:20px; color:white; margin-left:100px; margin-top:35px;">PROFIL</h2>
         <p style="color: white; font-family:poppins; margin: right 50%; margin-left:420px; margin-top:150px;"><img src="<?php echo base_url() ?>assets/images/logo-gembok.png" style="width:480px; margin-left: -550px; margin-top:-90px;">
         </p>
