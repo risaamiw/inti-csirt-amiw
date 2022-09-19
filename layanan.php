@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="<?php echo base_url() ?>assets-landing/css/aos.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>assets-landing/css/owl.carousel.min.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>assets-landing/css/owl.theme.default.min.css">
+
     <!-- Style.css -->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets\css\style.css">
 
@@ -39,21 +40,35 @@
     <script src="<?php echo base_url() ?>assets-landing/js/custom.js"></script>
 
     <style>
-        html,
-        body {
-            margin: 0;
-            height: 100%;
-            width: 100%;
-            padding: 0;
+        .container {
+            border-radius: 20px;
+            position: relative;
         }
 
-        section {
-            display: block;
-            height: 100%;
-            width: 100%;
-            padding: 30px;
-            padding-left: 0px;
-            box-sizing: border-box;
+        .carousel-inner {
+            border-radius: 20px;
+        }
+
+        .carousel-item {
+            margin-top: 50px;
+        }
+
+        .carousel-item img {
+            left: 0;
+            min-width: 100%;
+            height: 474px;
+            border-radius: 50px;
+        }
+
+        .left {
+            min-width: 30%;
+            height: 50%;
+            position: absolute;
+            top: 35%;
+            left: -2%;
+            background-color: #150544;
+            border-radius: 20px;
+            z-index: 9;
         }
     </style>
 </head>
@@ -109,27 +124,37 @@
     </div>
 </nav>
 
-
-<div id="carouselSlider" class="carousel slide">
-    <div class="carousel-inner" style=" padding: 55px; margin-top: -54px; border: radius 10px; ">
-        <div class="carousel-item active">
-            <img src="<?php echo base_url() ?>assets/images/GDPR.jpg" width="1250" height="500" alt="First slide" class="rounded-4" style="border-radius: 25px;">
+<section>
+    <div class="container">
+        <div class="left">
+            <p style="color: white; font-family:poppins; margin-top:30px; margin-left:35px;">PT Industri Telekomunikasi Indoenesia<br>(INTI-CSIRT)</p>
+            <h3 style="color: white; font-family:poppins; margin-top:10px; margin-left:35px;">CSIRT INTI</h3>
+            <h5 style="color: white; font-family:poppins; margin-top:10px; margin-left:35px;">Computer Securty Incident<br>Response Team</h5>
+            <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:35px; margin-top:20px; height:40px; width:100px">
+                <a href="<?php echo base_url('auth') ?>" style="color: white;"> Login <span class="btn-label"><i class="fa fa-chevron-right"></i></span></button>
         </div>
-        <div class="carousel-item">
-            <img src="<?php echo base_url() ?>assets/images/GLOBE.jpg" width="1250" height="500" alt="Second slide" class="rounded-4" style="border-radius: 25px;">
+        <div id="carouselSlider" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item-active">
+                    <img class="d-block w-100 img-fluid" src="<?php echo base_url() ?>assets/images/GDPR.jpg" alt="First slide">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 img-fluid" src="<?php echo base_url() ?>assets/images/GLOBE.jpg" alt="Second slide">
+            </div>
+            <a class="carousel-control-prev" href="#carouselSlider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselSlider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselSlider" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselSlider" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
+</section>
 <!-- HERO -->
-<section class="rounded-4 konten" style="background-color: #150544; height:1500px; width:75%; border-top-right-radius: 50px; margin-left:250px;">
+<section class="rounded-4 konten" style="background-color: #150544; height:1500px; width:75%; border-top-right-radius: 50px; margin-left:220px; margin-top:80px;">
     <div class="container" style="width: 100%;">
         <h2 class="h2" style="border-style: solid; width:26%; padding: 20px; border-radius:20px; color:white; margin-left:100px; margin-top:35px;">LAYANAN INTI</h2>
         <br><br>
