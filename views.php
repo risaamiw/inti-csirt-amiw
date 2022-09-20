@@ -26,12 +26,15 @@
 	<!--begin::Fonts-->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
 	<!-- MAIN CSS
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets-landing/css/templatemo-digital-trend.css"> -->
 
 	<!-- SCRIPTS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 	<script src="<?php echo base_url() ?>assets-landing/js/jquery.min.js"></script>
 	<script src="<?php echo base_url() ?>assets-landing/js/bootstrap.min.js"></script>
 	<script src="<?php echo base_url() ?>assets-landing/js/aos.js"></script>
@@ -39,7 +42,13 @@
 	<script src="<?php echo base_url() ?>assets-landing/js/smoothscroll.js"></script>
 	<script src="<?php echo base_url() ?>assets-landing/js/custom.js"></script>
 
+
 	<style>
+		body {
+			width: 100%;
+			height: 100%;
+		}
+
 		.carousel-inner {
 			border-radius: 20px;
 		}
@@ -65,6 +74,73 @@
 			border-radius: 20px;
 			z-index: 9;
 		}
+
+		.center {
+			min-width: 28%;
+			height: 20%;
+			position: absolute;
+			top: 75%;
+			left: 40px;
+			background-color: #FFFFFF;
+			border-radius: 20px;
+			z-index: 9;
+
+		}
+
+		.center2 {
+			min-width: 28%;
+			height: 20%;
+			position: absolute;
+			top: 75%;
+			left: 413px;
+			background-color: #FFFFFF;
+			border-radius: 20px;
+			z-index: 9;
+
+		}
+
+		.center3 {
+			min-width: 28%;
+			height: 20%;
+			position: absolute;
+			top: 75%;
+			left: 788px;
+			background-color: #FFFFFF;
+			border-radius: 20px;
+			z-index: 9;
+
+		}
+
+		.isi {
+			height: 650px;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.fill {
+			background-color: #150544;
+		}
+
+		.card {
+			margin: 10px;
+			height: 250px;
+			border-top: 0px;
+			box-shadow: 0 2px 2px 0px;
+			margin-top: 280px;
+			width: 25rem;
+
+		}
+
+		.btn {
+			border-radius: 0 0 5px 5px;
+			background-color: white;
+			border: none;
+			color: black;
+		}
+
+		/* css cuman buat biar ke tengah ajaa */
 	</style>
 
 </head>
@@ -160,24 +236,45 @@
 		</p>
 	</div>
 </section>
-<section class="rounded-4" style="background-color: #150544; height:370px; width:100%; border-radius: 10px; margin:button 100px;">
+<section class="rounded-4" style="background-color: #150544; height:390px; width:100%; border-radius: 10px; margin:button 100px;">
 	<div class="container" style="width: 100%;">
-		<p style="color:white; font-family: poppins; margin-left: 55px;">NEWS</p>
-		<p style="color:white; font-family: poppins; margin-left: 55px;"><b>news update for you</b></p>
+		<p style="color:white; font-family: poppins; margin-left: 55px; margin-top:20px;">NEWS</p>
+		<h3 style="color:white; font-family: poppins; margin-left: 55px; margin-top:20px;"><b>news update for you</b></h3>
 		<div class="row">
 			<div class="col-md-12">
 				<form action="https://goo.gl/maps/DMUmoieZ1eRAvnG2A">
-					<button type="submit" class="btn btn-labeled" style="color: #656565; margin-left: 1000px; margin-top:-95px; background-color:#F2F2F2; width:190px;">
-						<i class="fa-solid fa-location-dot"></i>Bandung, Indonesia <span class="btn-label"><i class="fa fa-chevron-down"></i></span>
+					<button type="submit" class="btn btn-labeled" style="color: #656565; margin-left: 1000px; margin-top:-90px; background-color:#F2F2F2; width:200px; font-family: poppins; height:40px;">
+						<i class="fa-solid fa-location-dot"></i>
+						<p>Bandung, Indonesia<span class="btn-label"><i class="fa fa-chevron-down"></i></p> </span>
 					</button>
 				</form>
 			</div>
 
-			<img src="assets/images/berita1.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 10px; border-radius: 25px;">
-			<img src="assets/images/berita2.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 20px; border-radius: 25px;">
-			<img src="assets/images/berita3.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 22px; border-radius: 25px;">
+			<div class="container" style="border-radius: 20px; position: relative;">
+				<div class="center">
+					<p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Kerentanan Zero-Day pada Apache<br>Java Logging Library LOG4J</b>
+						<button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:86px; border-radius:12px; margin-top:-5px;">
+							<span class="btn-label"><i class="fa fa-chevron-right"></i></span></button>
+					</p>
+				</div>
+				<div class="center2">
+					<p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Kerentanan Zero-day Windows 11 :<br> Membuat Siapapun Menjadi Admin</b>
+						<button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:42px; border-radius:12px; margin-top:-5px;">
+							<span class="btn-label"><i class="fa fa-chevron-right"></i></span></button>
+					</p>
+				</div>
+				<div class="center3">
+					<p style="font-family: poppins; margin-top:20px; font-size:11px; margin-left:20px;"><b>Tips: Membuat Strong Password <br> (Kata Sandi Yang Aman)</b>
+						<button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:102px; border-radius:12px; margin-top:-5px;">
+							<span class="btn-label"><i class="fa-solid fa-arrow-right"></i></span></button>
+					</p>
+				</div>
+				<img src=" assets/images/berita1.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 10px; border-radius: 25px; margin-top:40px;">
+				<img src="assets/images/berita2.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 20px; border-radius: 25px; margin-top:40px;">
+				<img src="assets/images/berita3.jpg" class="rounded-4" alt="" style="width: 350px; height: 350px; margin-left: 22px; border-radius: 25px; margin-top:40px;">
+			</div>
 		</div>
-		<div class="class" style="margin-top: 35px;">
+		<div class="class" style="margin-top: 40px;">
 			<form action="#">
 				<center>
 					<button type="submit" class="btn btn-labeled" style="background-color: #150544; color:white; font-family: poppins;">
@@ -187,55 +284,43 @@
 		</div>
 	</div>
 </section>
-<section class="" style="width:100%; color: white; height: 450px; margin-top:220px;">
-	<div class="container">
-		<center>
-			<p style="color: black; font-family: poppins;"><b>SPECIAL BENEFIT FOR YOU</b></p>
-			<h2 style="color: black; font-family: poppins;">Why Should Choose Us?</h2>
-		</center>
-		<div class="row" style="margin-top: 40px;">
-			<div class="col-sm-3">
-				<div class="card">
-					<div class="card-body">
-
-						<h5 class="card-title">Special title treatment</h5>
-						<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-						<a href="#" class="btn btn-primary" style="margin-top: 80px; margin-left:25px;">Go somewhere</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-3">
-				<div class="card">
-					<div class="card-body">
-						<h5 class="card-title">Special title treatment</h5>
-						<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-						<a href="#" class="btn btn-primary" style="margin-top: 80px; margin-left:25px;">Go somewhere</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-3">
-				<div class="card">
-					<div class="card-body">
-						<h5 class="card-title">Special title treatment</h5>
-						<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-						<a href="#" class="btn btn-primary" style="margin-top: 80px; margin-left:25px;">Go somewhere</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-3">
-				<div class="card">
-					<div class="card-body">
-						<h5 class="card-title" style="color: black;">Special title treatment</h5>
-						<p class="card-text" style="color: black;">With supporting text below as a natural lead-in to additional content.</p>
-						<a href=" #" class="btn btn-primary" style="margin-top: 80px; margin-left:-3%; width:260px; background-color: #150544;">View Detail</a>
-					</div>
-				</div>
-			</div>
+<section class="isi">
+	<div class="card text-center">
+		<div class="card-body">
+			<h1 class="card-title"><i class="fa-solid fa-gear"></i></h1>
+			<h1>100+</h1>
+			<p class="card-text">Preparation</p>
 		</div>
+		<a href="#" class="btn btn-primary">View Details <i class="fa-solid fa-chevron-right"></i></a>
 	</div>
+	<div class="card text-center">
+		<div class="card-body">
+			<h1 class="card-title"><i class="fa-solid fa-gear"></i></h1>
+			<h1>100+</h1>
+			<p class="card-text">Detection & Analysis</p>
+		</div>
+		<a href="#" class="btn btn-primary">View Details <i class="fa-solid fa-chevron-right"></i></a>
+	</div>
+	<div class="card text-center">
+		<div class="card-body">
+			<h1 class="card-title"><i class="fa-solid fa-gear"></i></h1>
+			<h1>100+</h1>
+			<p class="card-text">Containment Eradication & Recovery</p>
+		</div>
+		<a href="#" class="fill">View Details <i class="fa-solid fa-chevron-right"></i></a>
+	</div>
+	<div class="card text-center">
+		<div class="card-body">
+			<h1 class="card-title"><i class="fa-solid fa-gear"></i></h1>
+			<h1>100+</h1>
+			<p class="card-text">Post - Incident Activity</p>
+		</div>
+		<a href="#" class="btn btn-primary">View Details <i class="fa-solid fa-chevron-right"></i></a>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 </section>
-<section class="" style="width:100%; height: 500px;">
-	<div class="container" style="background-color: #150544; width:100%; height:250px; border-top-right-radius: 40px; margin-right:50px; margin-left:99px;">
+<section class="" style="width:100%; height: 450px;">
+	<div class="container" style="background-color: #150544; width:100%; height:250px; border-top-right-radius: 40px; margin-right:50px; margin-left:99px; margin-top:200px;">
 		<h2 style="font-family: poppins; color:white; margin-left:150px; margin-top:90px;">What people say</h2>
 		<p style="font-family: poppins; color:white; margin-left:150px;">All About Security Awareness</p>
 		<img src="assets/images/robert1.png" class="" style="width: 225px; height: 230px; margin-left: 600px; margin-top:-85px; border-top-right-radius: 30px;">
@@ -243,9 +328,9 @@
 	</div>
 	</div>
 </section>
-<section class="" style="width:100%; height: 750px;">
-	<img src="<?php echo base_url() ?>assets/images/contact1.png" width="475px" style="margin-left: 95px; margin-top:25px;">
-	<div class="isi" style="margin-top: -425px; margin-left: 50%; width:45%; font-family:poppins;">
+<section class="" style="width:100%; height: 700px;">
+	<img src="<?php echo base_url() ?>assets/images/contact1.png" width="40%" style="margin-left: 95px; margin-top:20px;">
+	<div class="" style="margin-top: -480px; margin-left: 50%; width:45%; font-family:poppins;">
 		<p style="color: blue;">CONTACT US</p>
 		<h3><b>Computer Security Incident <br>Response Team</b></h3>
 		<br><br>
