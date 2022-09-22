@@ -133,7 +133,7 @@ $label_captcha = "Confirmation Code";
 		</div>
 		<div class="col-md-5">
 			<center>
-				<img src="<?php echo base_url(); ?>assets/images/ini-inti.png" class="col-md-4 col-sm-4" alt="" style="margin-top: 80px;"><br><br><br>
+				<img src="<?php echo base_url(); ?>assets/images/ini-inti.png" class="col-md-4 col-sm-4" alt="" style="margin-top: 80px; width:100px;"><br><br><br>
 
 			</center>
 			<!--begin::Form-->
