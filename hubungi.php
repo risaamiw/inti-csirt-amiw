@@ -26,6 +26,7 @@
     <!--begin::Fonts-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <!-- MAIN CSS
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets-landing/css/templatemo-digital-trend.css"> -->
 
@@ -43,21 +44,59 @@
 
 
     <style>
-        html,
-        body {
-            margin: 0;
-            height: 100%;
-            width: 100%;
-            padding: 0;
+        .container {
+            border-radius: 20px;
+            position: relative;
         }
 
-        section {
-            display: block;
-            height: 100%;
-            width: 100%;
-            padding: 30px;
-            padding-left: 0px;
-            box-sizing: border-box;
+        .carousel-inner {
+            border-radius: 20px;
+        }
+
+        .carousel-item {
+            margin-top: 50px;
+        }
+
+        .carousel-item img {
+            left: 0;
+            min-width: 100%;
+            height: 474px;
+            border-radius: 50px;
+        }
+
+        .left {
+            min-width: 30%;
+            height: 50%;
+            position: absolute;
+            top: 35%;
+            left: -2%;
+            background-color: #150544;
+            border-radius: 20px;
+            z-index: 9;
+        }
+
+        .atas {
+            background-color: #150544;
+            height: 140px;
+            width: 235px;
+            border-radius: 15px;
+            margin-top: 540px;
+            z-index: 15;
+            top: 75%;
+            position: absolute;
+            margin-left: 80px;
+        }
+
+        .bawah {
+            background-color: #150544;
+            height: 160px;
+            width: 140px;
+            border-radius: 15px;
+            margin-top: 270px;
+            z-index: 15;
+            top: 75%;
+            position: absolute;
+            margin-left: 450px;
         }
     </style>
 </head>
@@ -113,38 +152,56 @@
     </div>
 </nav>
 
-
-<div id="carouselSlider" class="carousel slide">
-    <div class="carousel-inner" style=" padding: 55px; margin-top: -54px; border: radius 10px; ">
-        <div class="carousel-item active">
-            <img src="<?php echo base_url() ?>assets/images/GDPR.jpg" width="1250" height="500" alt="First slide" class="rounded-4" style="border-radius: 25px;">
+<section>
+    <div class="container">
+        <div class="left">
+            <p style="color: white; font-family:poppins; margin-top:30px; margin-left:35px;">PT Industri Telekomunikasi Indoenesia<br>(INTI-CSIRT)</p>
+            <h3 style="color: white; font-family:poppins; margin-top:10px; margin-left:35px;">CSIRT INTI</h3>
+            <h5 style="color: white; font-family:poppins; margin-top:10px; margin-left:35px;">Computer Securty Incident<br>Response Team</h5>
+            <button type="submit" class="btn btn-labeled" style="background-color: #23BBD1; color:white; font-family: poppins; margin-left:35px; margin-top:20px; height:40px; width:100px">
+                <a href="<?php echo base_url('auth') ?>" style="color: white;"> Login <span class="btn-label"><i class="fa fa-chevron-right"></i></span></button>
         </div>
-        <div class="carousel-item">
-            <img src="<?php echo base_url() ?>assets/images/GLOBE.jpg" width="1250" height="500" alt="Second slide" class="rounded-4" style="border-radius: 25px;">
+        <div id="carouselSlider" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item-active">
+                    <img class="d-block w-100 img-fluid" src="<?php echo base_url() ?>assets/images/GDPR.jpg" alt="First slide">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 img-fluid" src="<?php echo base_url() ?>assets/images/GLOBE.jpg" alt="Second slide">
+            </div>
+            <a class="carousel-control-prev" href="#carouselSlider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselSlider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselSlider" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselSlider" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
+</section>
 
 <!-- HERO -->
 
-<section class="" style=" height: 600px;">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.595161779133!2d107.6066353!3d-6.9388913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e63a66953993%3A0x248047e0057191ae!2sPT.%20Inti%20(Persero)!5e0!3m2!1sen!2sid!4v1663054881141!5m2!1sen!2sid" width="410" height="420" style="margin-left:130px; border-radius: 25px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <div class="isi" style="font-family:poppins; margin-left: 56%; margin-top:-420px;">
+<section class="" style=" height: 700px;">
+    <div class="atas">
+        <img src="<?php echo base_url() ?>assets/images/kotak.png" alt="" style="width:46%; padding:17px;">
+        <p style="margin-left: 100px; font-size:smaller; margin-top:-108px; color:white; font-family:poppins;">INTI-CSIRT<br>Computer Security<br> Incident Response<br>Team</p>
+    </div>
+    <div class="bawah">
+        <img src="<?php echo base_url() ?>assets/images/kotak2.png" alt="" style="width:78%; padding:20px; margin-left:14px;">
+        <p style="margin-left: 40px; font-size:smaller; margin-top:-10px; color:white; font-family:poppins;"><b style="margin-left: 13px;">Trust</b><br>Guaranted</p>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.595161779133!2d107.6066353!3d-6.9388913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e63a66953993%3A0x248047e0057191ae!2sPT.%20Inti%20(Persero)!5e0!3m2!1sen!2sid!4v1663054881141!5m2!1sen!2sid" width="400" height="410" style="margin-left:130px; border-radius: 25px; margin-top:160px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="isi" style="font-family:poppins; margin-left: 50%; margin-top:-410px;">
         <p style="color: blue;">HUBUNGI KAMI</p>
         <h3>Computer Security Incident<br>Response Team</h3><br><br>
         <p style="color: #656565;">ADDRESS</p>
         <h4><b>PT.Industri Telekomunikasi</b></h4>
-        <button type="submit" class="btn btn-labeled" style="background-color: white; color:#FDC886; font-family: poppins; margin-left:80%; margin-top:-65px;">
+        <button type="submit" class="btn btn-labeled" style="background-color: white; color:#FDC886; font-family: poppins; margin-left:65%; margin-top:-65px;">
             <a href="<?php echo base_url('Content/profil') ?>" class="href" style="color:#FDC886;"> Profile Details</a> <span class="btn-label"><i class="fa fa-chevron-right"></i></span></button>
-        <p style="color: #656565;">Jalan Moh. Toha No.77 Kelurahan Cigereleng, Kecamatan<br>Regol, Bandung, Jawa Barat 40113<br><br> EMAIL<br></p>
+        <p style="color: #656565;"><i class="fa-solid fa-location-dot"></i> Jalan Moh. Toha No.77 Kelurahan Cigereleng, Kecamatan<br>Regol, Bandung, Jawa Barat 40113<br><br> EMAIL<br></p>
         <b>csirt[at]inti.co.id</b><br><br>
         <p style="color: #656565;">TELEPHONE</p>
         <b>(022) 5201-501</b><br><br>
